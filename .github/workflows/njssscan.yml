@@ -6,6 +6,7 @@ on:
     branches: [ master ]
 jobs:
   njsscan:
+    permissions: write-all
     runs-on: ubuntu-latest
     name: njsscan check
     steps:
